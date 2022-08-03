@@ -1,6 +1,9 @@
+import './Home.css';
+
 const Home = () => {
     return (
-        <p>Home</p>
+        <div className="home">Skule™ Commuter Student Project Directorship
+        </div>
     );
   }
   

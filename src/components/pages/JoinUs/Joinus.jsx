@@ -1,6 +1,6 @@
 const JoinUs = () => {
     return (
-        <p>Join Us</p>
+        <div className="join-us">Join Us</div>
     );
   }
   

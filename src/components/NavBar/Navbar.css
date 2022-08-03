@@ -1,0 +1,21 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+    height: min(21vw, 7rem);
+    background: #f6de98;
+    border-top-color: #24347b; border-top-style: solid; border-top-width: min(8vw, 1.5rem);
+    border-bottom-color: #24347b; border-bottom-style: solid; border-bottom-width: min(8vw, 1.5rem);
+    z-index: 15; position: fixed;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link p {
+    display: flex;
+    color: #24347b;
+    font-family: 'DM Sans';
+    padding-left: min(20vw, 6rem);
+    font-size: min(3vw, 1.75rem);
+}

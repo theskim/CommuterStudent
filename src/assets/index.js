@@ -1,0 +1,1 @@
+export const CommuterLogo = require('./images/commuter.png');
