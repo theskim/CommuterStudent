@@ -27,3 +27,8 @@
     font-family: 'DM Sans';
     font-size: min(3vw, 1.75rem);
 }
+
+
+.ohWowLookItsGone {
+    display: none;
+}
