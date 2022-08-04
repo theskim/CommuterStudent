@@ -6,8 +6,7 @@
     padding: 0 3rem;
     background: #f6de98;
     box-sizing: border-box;
-    border-top-color: #24347b; border-top-style: solid; border-top-width: min(8vw, 1.5rem);
-    border-bottom-color: #24347b; border-bottom-style: solid; border-bottom-width: min(8vw, 1.5rem);
+    border-color: #24347b; border-style: solid none; border-width: min(8vw, 1.3rem);
     z-index: 15; position: fixed;
 }
 
