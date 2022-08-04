@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: min(21vw, 8rem);
+    height: 8rem;
     padding: 0 3rem;
     background: #f6de98;
     box-sizing: border-box;
-    border-color: #24347b; border-style: solid none; border-width: min(8vw, 1.3rem);
+    border-color: #24347b; border-style: solid none; border-width: 1.3rem;
     z-index: 15; position: fixed;
 }
 
