@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState} from "react";
 import { NavLink } from "react-router-dom";
 import { SmoothScroll } from "../SmoothScroll";
 import "./MobileMenu.css";
@@ -7,22 +7,18 @@ import "../Navbar.css"; // Because there is no need to duplicate css for nav-lin
 
 const MobileMenu = () => {
 
-    const hamburger = useRef(null);
+    // const hamburger = useRef(null);
     const [isOpen, setIsOpen] = useState(false);
     const [firstOpen, setFirstOpen] = useState(false);
     
-    useEffect(()=> {
-        const openMenu = () => {
-            setIsOpen(!isOpen);
-            setFirstOpen(true);
-        }
-        const hamburgerElement = hamburger.current;
-        hamburgerElement.addEventListener("click", openMenu);
-    })
+    const openMenu = () => {
+        setIsOpen(!isOpen);
+        setFirstOpen(true);
+    }
 
     return (
         <>
-            <i ref={hamburger} className="fa-solid fa-bars">Pretend this is icon</i>
+            <i onClick={openMenu} className="fa-solid fa-bars">Pretend this is icon</i>
             {/* This complicated looking nested ternary is because we don't want the mobile nav to do the slideOut animation unless clicked on.
                 Without this, the user sees the mobile nav slide out on page load, which looks unprofessional and janky. */}
             <div className={`nav-links ${(firstOpen ? (isOpen ? "inView" : "outOfView") : "")}`}>

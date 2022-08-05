@@ -29,11 +29,11 @@
 }
 
 .inView {
-    animation: slideIn 1s ease-in-out;
+    animation: slideIn 0.4s ease-in-out;
     left: 0;
 }
 .outOfView {
-    animation: slideOut 1s ease-in-out;
+    animation: slideOut 0.4s ease-in-out;
     left: 100vw;
 }
 
