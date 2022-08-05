@@ -18,7 +18,12 @@ const MobileMenu = () => {
 
     return (
         <>
-            <i onClick={openMenu} className="fa-solid fa-bars">Pretend this is icon</i>
+            <div className="nav-mobile-toggle">
+                <input onClick={openMenu} type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </div>
             {/* This complicated looking nested ternary is because we don't want the mobile nav to do the slideOut animation unless clicked on.
                 Without this, the user sees the mobile nav slide out on page load, which looks unprofessional and janky. */}
             <div className={`nav-links ${(firstOpen ? (isOpen ? "inView" : "outOfView") : "")}`}>
