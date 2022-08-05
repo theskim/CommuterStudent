@@ -23,6 +23,8 @@ const MobileMenu = () => {
     return (
         <>
             <i ref={hamburger} className="fa-solid fa-bars">Pretend this is icon</i>
+            {/* This complicated looking nested ternary is because we don't want the mobile nav to do the slideOut animation unless clicked on.
+                Without this, the user sees the mobile nav slide out on page load, which looks unprofessional and janky. */}
             <div className={`nav-links ${(firstOpen ? (isOpen ? "inView" : "outOfView") : "")}`}>
                 <NavLink to='/' className ="nav-link" onClick={SmoothScroll}><p>Home</p></NavLink>
                 <NavLink to='/about-us' className ="nav-link" onClick={SmoothScroll}><p>About Us</p></NavLink>
