@@ -1,3 +1,20 @@
 .home {
-    padding-top: min(30vh, 20rem);
+    padding-left: min(10vw, 5rem);
+}
+
+.home__buttons {
+    display: inline-block;
+}
+
+.home img {
+    margin: min(5vw, 2rem);
+    width: min(15vw, 5rem);
+    border-radius: 50%;    
+    box-shadow: 0 0 0 min(1vw, 0.3rem) #e4dc41;
+    transition: all 0.7s ease-out;
+}
+
+.home img:hover{
+    box-shadow: 0 0 0 min(1vw, 0.3rem) #30d085;
+    transition: all 0.7s ease-out;
 }
