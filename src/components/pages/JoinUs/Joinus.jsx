@@ -1,6 +1,10 @@
 const JoinUs = () => {
     return (
-        <div className="join-us">Join Us</div>
+      <div className="custom-background">
+        <div className="join-us">
+          <h3>Membership Form</h3>
+        </div>
+      </div>
     );
   }
   

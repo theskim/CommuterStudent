@@ -1,0 +1,37 @@
+.about-us__header {
+    margin-left: 10vw; margin-right: 10vw;
+}
+
+.about-us__team {
+    margin-left: 10vw; margin-right: 10vw;
+    display: inline-block;
+}
+
+.member-box {
+    display: inline-block;
+    text-align: left;
+    justify-content: center;
+    margin: min(5vw, 1rem);
+}
+
+.member-box img {
+    width: min(20vw, 10rem);
+    border-radius: 50%;    
+    box-shadow: 0 0 0 min(1vw, 0.3rem) #ff9071;
+    pointer-events: none;
+}
+
+.member-box:nth-child(3n + 2) img {
+    box-shadow: 0 0 0 min(1vw, 0.3rem) #86a8ff;
+}
+
+.member-box:nth-child(3n) img {
+    box-shadow: 0 0 0 min(1vw, 0.3rem) #53af53;
+}
+
+/* mobile margin */
+@media screen and (max-width: 850px){
+    .about-us {
+        margin-left: 5vw; margin-right: 5vw;
+    }
+}
