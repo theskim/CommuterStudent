@@ -51,15 +51,15 @@
               opacity 0.55s ease;
 }
 
-.nav-mobile-toggle input:checked ~ span:nth-last-child(3) {
+.nav-mobile-toggle input.checked ~ span:nth-last-child(3) {
     transform: rotate(45deg);
     height: 3px;
 }
-.nav-mobile-toggle input:checked ~ span:nth-last-child(2) {
+.nav-mobile-toggle input.checked ~ span:nth-last-child(2) {
     opacity: 0;
 }
 
-.nav-mobile-toggle input:checked ~ span:nth-last-child(1) {
+.nav-mobile-toggle input.checked ~ span:nth-last-child(1) {
     transform: rotate(-45deg);
     height: 3px;
 }
