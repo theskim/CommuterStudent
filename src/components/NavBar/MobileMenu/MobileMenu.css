@@ -1,14 +1,15 @@
 .nav-links {
     position: absolute;
     top: 4.5rem; /* for some reason this is always offset downwards by 0.5rem, which is exactly the width of the navbar's border (in mobile mode). idk why. temp fix. */
-    width: 100%;
+    width: 70%;
     left: 100vw;
     height: calc(100vh - 5rem); /* 8rem is the height of the navbar */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     background: #f6de98;
+    box-shadow: 0 0 1rem #85888C;
 }
 
 
@@ -70,12 +71,12 @@
         left: 100vw;
     }
     100% {
-        left: 0;
+        left: 30vw;
     }
 }
 @keyframes slideOut {
     0% {
-        left: 0;
+        left: 30vw;
     }
     100% {
         left: 100vw;
@@ -84,7 +85,7 @@
 
 .inView {
     animation: slideIn 0.4s ease-in-out;
-    left: 0;
+    left: 30vw;
 }
 .outOfView {
     animation: slideOut 0.4s ease-in-out;
