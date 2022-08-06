@@ -1,0 +1,36 @@
+.card {
+    background: #525d92;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    margin: 0 1rem;
+    box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.card__header {
+    background: #24347b;
+    margin: 0;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card__header__title {
+    margin: 0;
+    color: #fcb839;
+}
+
+.card__content {
+    margin: 1rem;
+    color: #d7d1c0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .card {
+        margin: 1rem 0;
+    }
+}
