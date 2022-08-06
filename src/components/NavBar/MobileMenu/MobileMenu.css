@@ -1,15 +1,23 @@
 .nav-links {
     position: absolute;
-    top: 4.5rem; /* for some reason this is always offset downwards by 0.5rem, which is exactly the width of the navbar's border (in mobile mode). idk why. temp fix. */
+    top: 0;
     width: 70%;
     left: 100vw;
-    height: calc(100vh - 5rem); /* 8rem is the height of the navbar */
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    background: #f6de98;
+    background: #24347b;
     box-shadow: 0 0 1rem #85888C;
+}
+
+.nav-link {
+    margin: 2rem 0;
+}
+
+.nav-link p {
+    color: #f6de98;
 }
 
 
@@ -55,6 +63,7 @@
 .nav-mobile-toggle input.checked ~ span:nth-last-child(3) {
     transform: rotate(45deg);
     height: 3px;
+    background: #e5d196;
 }
 .nav-mobile-toggle input.checked ~ span:nth-last-child(2) {
     opacity: 0;
@@ -63,6 +72,7 @@
 .nav-mobile-toggle input.checked ~ span:nth-last-child(1) {
     transform: rotate(-45deg);
     height: 3px;
+    background: #e5d196;
 }
 
 
