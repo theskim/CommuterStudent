@@ -1,14 +1,15 @@
 .nav-links {
     position: absolute;
-    top: 6.7rem; /* for some reason this is always offset downwards by 1.3 rem, which is exactly the width of the navbar's border. idk why. temp fix. */
-    width: 100%;
+    top: 4.5rem; /* for some reason this is always offset downwards by 0.5rem, which is exactly the width of the navbar's border (in mobile mode). idk why. temp fix. */
+    width: 70%;
     left: 100vw;
-    height: calc(100vh - 8rem); /* 8rem is the height of the navbar */
+    height: calc(100vh - 5rem); /* 8rem is the height of the navbar */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     background: #f6de98;
+    box-shadow: 0 0 1rem #85888C;
 }
 
 
@@ -40,26 +41,26 @@
     display: flex;
     width: 2rem;
     height: 3px;
-    margin-bottom: 5px;
+    margin: 2px 0;
     border-radius: 3px;
     position: relative;
     background: #24347b;
     z-index: 1;
-    transform-origin: 17%;
+    transform-origin: 19%;
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
 
-.nav-mobile-toggle input:checked ~ span:nth-last-child(3) {
+.nav-mobile-toggle input.checked ~ span:nth-last-child(3) {
     transform: rotate(45deg);
     height: 3px;
 }
-.nav-mobile-toggle input:checked ~ span:nth-last-child(2) {
+.nav-mobile-toggle input.checked ~ span:nth-last-child(2) {
     opacity: 0;
 }
 
-.nav-mobile-toggle input:checked ~ span:nth-last-child(1) {
+.nav-mobile-toggle input.checked ~ span:nth-last-child(1) {
     transform: rotate(-45deg);
     height: 3px;
 }
@@ -70,12 +71,12 @@
         left: 100vw;
     }
     100% {
-        left: 0;
+        left: 30vw;
     }
 }
 @keyframes slideOut {
     0% {
-        left: 0;
+        left: 30vw;
     }
     100% {
         left: 100vw;
@@ -84,7 +85,7 @@
 
 .inView {
     animation: slideIn 0.4s ease-in-out;
-    left: 0;
+    left: 30vw;
 }
 .outOfView {
     animation: slideOut 0.4s ease-in-out;

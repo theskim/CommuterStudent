@@ -33,6 +33,11 @@
     font-size: min(6vw, 1.75rem);
 }
 
+.nav-link:hover p {
+    color: #47579d;
+    /* transition: 0.2s; */
+}
+
 
 
 
@@ -47,10 +52,12 @@
 }
 
 
-/* TABLET MODE IN PORTRAIT/PHONES */
+/* TABLET/PHONES */
 @media screen and (max-width: 850px) {
     .nav-bar {
         padding: 0 1rem;
+        height: 5rem;
+        border-width: 0.5rem;
     }
     .nav-container {
         display: none;
