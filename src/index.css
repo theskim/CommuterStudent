@@ -22,6 +22,17 @@ code {
     monospace;
 }
 
+/* Custom Background */
+.custom-background {
+  padding-top: 10vw;
+  background: linear-gradient(90deg, #ffa600c8, #0e31bcd6);
+  padding-bottom: 10vw;
+}
+
 .home, .about-us, .events, .join-us {
-  padding-top: min(30vh, 20rem);
+  padding-top: min(10vh, 5rem); padding-bottom: min(10vh, 5rem);
+  background-color: #fff7de;
+  display: grid;
+  margin-left: 10vw; margin-right: 10vw;
+  border-radius: 5%;
 }
