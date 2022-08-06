@@ -33,6 +33,11 @@
     font-size: min(6vw, 1.75rem);
 }
 
+.nav-link:hover p {
+    color: #47579d;
+    /* transition: 0.2s; */
+}
+
 
 
 
