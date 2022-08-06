@@ -1,0 +1,93 @@
+.nav-links {
+    position: absolute;
+    top: 6.7rem; /* for some reason this is always offset downwards by 1.3 rem, which is exactly the width of the navbar's border. idk why. temp fix. */
+    width: 100%;
+    left: 100vw;
+    height: calc(100vh - 8rem); /* 8rem is the height of the navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #f6de98;
+}
+
+
+.nav-mobile-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 2rem;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+    height: 100%;
+}
+
+.nav-mobile-toggle input {
+    position: absolute;
+    display: flex;
+    height: 80%;
+    width: 5rem;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    margin: 0;
+}
+
+.nav-mobile-toggle span {
+    display: flex;
+    width: 2rem;
+    height: 3px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    position: relative;
+    background: #24347b;
+    z-index: 1;
+    transform-origin: 17%;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+.nav-mobile-toggle input:checked ~ span:nth-last-child(3) {
+    transform: rotate(45deg);
+    height: 3px;
+}
+.nav-mobile-toggle input:checked ~ span:nth-last-child(2) {
+    opacity: 0;
+}
+
+.nav-mobile-toggle input:checked ~ span:nth-last-child(1) {
+    transform: rotate(-45deg);
+    height: 3px;
+}
+
+
+@keyframes slideIn {
+    0% {
+        left: 100vw;
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes slideOut {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100vw;
+    }
+}
+
+.inView {
+    animation: slideIn 0.4s ease-in-out;
+    left: 0;
+}
+.outOfView {
+    animation: slideOut 0.4s ease-in-out;
+    left: 100vw;
+}
+
