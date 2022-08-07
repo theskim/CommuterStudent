@@ -34,5 +34,6 @@ code {
   background-color: #fff7de;
   display: grid;
   margin-left: 10vw; margin-right: 10vw;
-  border-radius: 5%;
+  border-radius: 3vw;
+  box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
 }

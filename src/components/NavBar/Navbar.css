@@ -11,6 +11,11 @@
     z-index: 15; position: fixed;
 }
 
+/* nav-bar logo */
+.nav-bar img {
+    pointer-events: none;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -31,10 +36,11 @@
     color: #24347b;
     font-family: 'DM Sans';
     font-size: min(6vw, 1.75rem);
+    transition: 0.2s;
 }
 
 .nav-link:hover p {
-    color: #47579d;
+    color: #7989d2;
     transition: 0.2s;
 }
 

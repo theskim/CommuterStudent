@@ -28,10 +28,10 @@ const MobileMenu = () => {
             {/* This complicated looking nested ternary is because we don't want the mobile nav to do the slideOut animation unless clicked on.
                 Without this, the user sees the mobile nav slide out on page load, which looks unprofessional and janky. */}
             <div className={`nav-links ${(firstOpen ? (isOpen ? "inView" : "outOfView") : "")}`}>
-                <NavLink to='/' className ="nav-link" onClick={toggleMenu}><p>Home</p></NavLink>
-                <NavLink to='/about-us' className ="nav-link" onClick={toggleMenu}><p>About Us</p></NavLink>
-                <NavLink to='/events' className ="nav-link" onClick={toggleMenu}><p>Events</p></NavLink>
-                <NavLink to='/join-us' className ="nav-link" onClick={toggleMenu}><p>Join Us</p></NavLink>
+                <NavLink to='/' className ="nav-link__mobile" onClick={toggleMenu}><p>Home</p></NavLink>
+                <NavLink to='/about-us' className ="nav-link__mobile" onClick={toggleMenu}><p>About Us</p></NavLink>
+                <NavLink to='/events' className ="nav-link__mobile" onClick={toggleMenu}><p>Events</p></NavLink>
+                <NavLink to='/join-us' className ="nav-link__mobile" onClick={toggleMenu}><p>Join Us</p></NavLink>
             </div>
         </>
     )

@@ -12,14 +12,21 @@
     box-shadow: 0 0 1rem #85888C;
 }
 
-.nav-link {
+.nav-link__mobile {
+    text-decoration: none;
     margin: 2rem 0;
 }
 
-.nav-link p {
+.nav-link__mobile p {
     color: #f6de98;
+    font-family: 'DM Sans';
+    font-size: min(6vw, 1.75rem);
+    transition: 0.2s;
 }
 
+.nav-link__mobile p:hover{
+    color: #ffcb2f;
+}
 
 .nav-mobile-toggle {
     display: flex;
