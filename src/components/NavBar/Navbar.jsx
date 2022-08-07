@@ -15,6 +15,7 @@ const NavBar = () => {
                 <NavLink to='/about-us' className ="nav-link" onClick={SmoothScroll}><p>About Us</p></NavLink>
                 <NavLink to='/events' className ="nav-link" onClick={SmoothScroll}><p>Events</p></NavLink>
                 <NavLink to='/join-us' className ="nav-link" onClick={SmoothScroll}><p>Join Us</p></NavLink>
+                <NavLink to='/tips' className ="nav-link" onClick={SmoothScroll}><p>Tips</p></NavLink>
             </span>
             <span className="nav-mobile-container">
                 <MobileMenu />
