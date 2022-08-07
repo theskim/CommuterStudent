@@ -1,10 +1,12 @@
 .cards {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-bottom: 6rem;
 }
 
 @media only screen and (max-width: 1000px) {
     .cards {
         grid-template-columns: 100%;
+        margin-bottom: 5rem; /* Because in mobile the individual card components themselves have margin-bottom of 1rem */
     }
 }
