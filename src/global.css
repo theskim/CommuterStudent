@@ -29,7 +29,7 @@ code {
   padding-bottom: 10vw;
 }
 
-.home, .about-us, .events, .join-us {
+.home, .about-us, .events, .join-us, .tips {
   padding-top: min(10vh, 5rem); padding-bottom: min(10vh, 5rem);
   background-color: #fff7de;
   display: grid;
