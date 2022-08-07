@@ -35,7 +35,7 @@
 
 .nav-link:hover p {
     color: #47579d;
-    /* transition: 0.2s; */
+    transition: 0.2s;
 }
 
 
