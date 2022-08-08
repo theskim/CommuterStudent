@@ -24,7 +24,7 @@ const AboutUs = () => {
                         Additionally, we have monthly events. To learn more, check out the Events page."
               />
             </Cards>
-            <h3>Meet Our Team</h3>
+            <h2>Meet Our Team</h2>
           </div>
 
           <div className="about-us__team">

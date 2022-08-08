@@ -1,10 +1,14 @@
 .about-us__header {
-    margin-left: 10vw; margin-right: 10vw;
+    margin-left: min(6vw, 2rem); margin-right: min(6vw, 2rem);
 }
 
 .about-us__team {
-    margin-left: 10vw; margin-right: 10vw;
-    display: inline-block;
+    margin-left: min(6vw, 2rem); margin-right: min(6vw, 2rem);
+    text-align: center;
+}
+
+.about-us__header h2 {
+    text-align: center;
 }
 
 .member-box {
@@ -15,7 +19,7 @@
 }
 
 .member-box img {
-    width: min(20vw, 10rem);
+    width: min(30vw, 10rem);
     border-radius: 50%;    
     box-shadow: 0 0 0 min(1vw, 0.3rem) #ff9071;
     pointer-events: none;
