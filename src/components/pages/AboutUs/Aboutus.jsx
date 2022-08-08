@@ -28,7 +28,7 @@ const AboutUs = () => {
           </div>
 
           <div className="about-us__team">
-            <Member name="Karnibir Saini" discipline="ECE 2T4+2" role="Director" image={CommuterLogo}/>
+            <Member name="Karnbir Saini" discipline="ECE 2T4+2" role="Director" image={CommuterLogo}/>
             <Member name="Sean Kim" discipline="ECE 2T5" role="Webmaster" image={CommuterLogo}/>
             <Member name="Ayaan Pathan" discipline="T1 2T6" role="Webmaster" image={CommuterLogo}/>
             <Member name="Celin Begeshev" discipline="Mech 2T5" role="Membership Director" image={CommuterLogo}/>
