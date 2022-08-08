@@ -30,12 +30,16 @@ const AboutUs = () => {
           <div className="about-us__team">
             <Member name="Karnibir Saini" discipline="ECE 2T4+2" role="Director" image={CommuterLogo}/>
             <Member name="Sean Kim" discipline="ECE 2T5" role="Webmaster" image={CommuterLogo}/>
-            <Member name="Sean Kim" discipline="ECE 2T5" role="Webmaster" image={CommuterLogo}/>
-            <Member name="Sean Kim" discipline="ECE 2T5" role="Webmaster" image={CommuterLogo}/>
-            <Member name="Sean Kim" discipline="ECE 2T5" role="Webmaster" image={CommuterLogo}/>
-            <Member name="Sean Kim" discipline="ECE 2T5" role="Webmaster" image={CommuterLogo}/>
-            <Member name="Sean Kim" discipline="ECE 2T5" role="Webmaster" image={CommuterLogo}/>
-            <Member name="Sean Kim" discipline="ECE 2T5" role="Webmaster" image={CommuterLogo}/>
+            <Member name="Ayaan Pathan" discipline="T1 2T6" role="Webmaster" image={CommuterLogo}/>
+            <Member name="Celin Begeshev" discipline="Mech 2T5" role="Membership Director" image={CommuterLogo}/>
+            <Member name="Baneen Kazmi" discipline="CIV 2T5" role="Membership Director" image={CommuterLogo}/>
+            <Member name="Mohammed Quershi" discipline="Mech 2T5" role="Membership Director" image={CommuterLogo}/>
+            <Member name="Rafiq Omair" discipline="Mech 2T5" role="Skule Relations Director" image={CommuterLogo}/>
+            <Member name="Lily Kim" discipline="ECE 2T5" role="Marketing Director" image={CommuterLogo}/>
+            <Member name="Siddhartha Challa" discipline="Mech 2T4" role="Events and Logistics Director" image={CommuterLogo}/>
+            <Member name="Hassan Tahir" discipline="EngSci 2T6" role="Frosh Representative" image={CommuterLogo}/>
+            <Member name="Leah Ben-Tzur" discipline="EngSci 2T6" role="Frosh Representative" image={CommuterLogo}/>
+            <Member name="Kaitlyn Wong" discipline="Mech 2T6" role="Frosh Representative" image={CommuterLogo}/>
           </div>
         </div>
       </div>
