@@ -6,7 +6,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: #24347b;
     box-shadow: 0 0 1rem #85888C;
@@ -14,7 +14,7 @@
 
 .nav-link__mobile {
     text-decoration: none;
-    margin: 2rem 0;
+    margin: 0;
 }
 
 .nav-link__mobile p {
@@ -22,6 +22,7 @@
     font-family: 'DM Sans';
     font-size: min(6vw, 1.75rem);
     transition: 0.2s;
+    margin: 0;
 }
 
 .nav-link__mobile p:hover{
