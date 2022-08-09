@@ -1,0 +1,33 @@
+.dropdown {
+    width: 100%;
+}
+
+.dropdown__header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #24347b;
+    cursor: pointer;
+}
+
+.dropdown__header__caret {
+    height: 100%;
+    position: absolute;
+    left: 3rem;
+    top: 25%;
+}
+
+.dropdown__header__caret img {
+    height: 50%;
+}
+
+.dropdown__header__title h3 {
+    color: #fcb839;
+}
+
+
+.dropdown__content__item {
+    margin-bottom: 0.7rem;
+}

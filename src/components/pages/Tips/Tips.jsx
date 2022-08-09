@@ -22,10 +22,11 @@ const Tips = () => {
         <div className="tips">
 
           <h1>Commuter Tips</h1>
-
-		  {keys.map((key) => {
-			return <Dropdown title={key} content={tips[key]} />
-		  })}
+		  <div className="tips__content">
+			{keys.map((key) => {
+				return <Dropdown title={key} content={tips[key]} />
+				})}
+		</div>
 
           
         </div>
