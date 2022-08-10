@@ -3,7 +3,7 @@
 }
 
 .about-us__team {
-    margin-left: min(6vw, 2rem); margin-right: min(6vw, 2rem);
+    margin-left: 7vw; margin-right: 7vw;
     text-align: center;
 }
 
@@ -11,25 +11,43 @@
     text-align: center;
 }
 
-.member-box {
+.member-box {   
+    max-width: min(30vw, 10rem);
     display: inline-block;
     justify-content: center;
-    margin: min(5vw, 3rem);
+    vertical-align: top;
+    margin: min(6vw, 3rem);
 }
 
-.member-box img {
+.member-box .member-pic {
     width: min(30vw, 10rem);
     border-radius: 50%;    
     box-shadow: 0 0 0 min(1vw, 0.3rem) #ff9071;
     pointer-events: none;
 }
 
-.member-box:nth-child(3n + 2) img {
+.member-box:nth-child(3n + 2) .member-pic {
     box-shadow: 0 0 0 min(1vw, 0.3rem) #86a8ff;
 }
 
-.member-box:nth-child(3n) img {
+.member-box:nth-child(3n) .member-pic {
     box-shadow: 0 0 0 min(1vw, 0.3rem) #53af53;
+}
+
+.member-box p {
+    font-family: 'DM Sans Light';
+}
+
+.social-media-logo {
+    transition: all 0.7s ease-out;
+    height: min(6vw, 3rem);
+    margin: min(2vw, 0.5rem);
+    border-radius: 50%;    
+    box-shadow: 0 0 0 min(1vw, 0.2rem) #ff71ee;
+}
+
+.social-media-logo:hover {
+    box-shadow: 0 0 0 min(1vw, 0.2rem) #ff7171;
 }
 
 /* mobile margin */
