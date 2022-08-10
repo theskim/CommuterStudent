@@ -44,3 +44,9 @@ code {
   border-radius: 3vw;
   box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
 }
+
+@media screen and (max-width: 1000px){
+  .home, .about-us, .events, .join-us, .tips {
+    margin-left: 5vw; margin-right: 5vw;
+  }
+}
