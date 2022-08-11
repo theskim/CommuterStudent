@@ -4,6 +4,8 @@
     box-sizing: border-box;
     margin: 0 1rem;
     box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
+    max-width: 25rem;
+    min-height: 25rem;
 }
 
 .card__header {

@@ -1,7 +1,9 @@
 .cards {
     display: grid;
+    justify-items: center;
     grid-template-columns: 50% 50%;
     margin-bottom: 6rem;
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -8,6 +8,11 @@ const AboutUs = () => {
     return (
       <div className="custom-background">
         <div className="about-us">
+
+
+          <div className="section-title">
+            <h2>About Us</h2>
+          </div>
           <div className="about-us__header">
             <Cards>
               <Card 
@@ -24,9 +29,11 @@ const AboutUs = () => {
                         Additionally, we have monthly events. To learn more, check out the Events page."
               />
             </Cards>
+          </div>
+          
+          <div className="section-title">
             <h2>Meet Our Team</h2>
           </div>
-
           <div className="about-us__team">
             <Member 
               name="Karnbir Saini" 
@@ -128,6 +135,7 @@ const AboutUs = () => {
               instagram="https://www.instagram.com/kaitlyn.w___/"
             />
           </div>
+
         </div>
       </div>
     );

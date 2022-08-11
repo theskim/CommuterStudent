@@ -1,3 +1,11 @@
+.section-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 .about-us__header {
     margin-left: min(6vw, 2rem); margin-right: min(6vw, 2rem);
 }
