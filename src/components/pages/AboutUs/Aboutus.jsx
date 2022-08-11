@@ -2,7 +2,7 @@ import './Aboutus.css';
 import Member from './Member';
 import Card from '../../Card/Card.jsx';
 import Cards from '../../Card/Cards.jsx';
-import { Aayan, Celin, CommuterLogo, Hassan, Kaitlyn, Karnbir, Leah, Lily, Mohammed, Sean } from '../../../assets';
+import { Aayan, Celin, CommuterLogo, Hassan, Kaitlyn, Karnbir, Leah, Lily, Mohammed, Sean, Siddhartha } from '../../../assets';
 
 const AboutUs = () => {
     return (
@@ -104,8 +104,11 @@ const AboutUs = () => {
               name="Siddhartha Challa" 
               discipline="Mech 2T4" 
               role="Events and Logistics Director" 
-              image={CommuterLogo}
-              funfact={<> </>}
+              image={Siddhartha}
+              funfact={<>I once performed a recorder duet cover of Fireflies 
+              with my friend while another friend was default dancing and the 
+              video is on the internet somewhere </>}
+              instagram="https://www.instagram.com/sidrc.3/"
             />
             <Member 
               name="Hassan Tahir" 
