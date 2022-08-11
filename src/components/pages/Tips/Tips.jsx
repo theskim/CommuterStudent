@@ -21,12 +21,13 @@ const Tips = () => {
       <div className="custom-background">
         <div className="tips">
 
-          <h1>Commuter Tips</h1>
-		  <div className="tips__content">
-			{keys.map((key) => {
-				return <Dropdown title={key} content={tips[key]} />
-				})}
-		</div>
+            <h1>Commuter Tips</h1>
+
+          <div className="tips__content">
+            {keys.map((key) => {
+              return <Dropdown title={key} content={tips[key]} />
+              })}
+          </div>
 
           
         </div>

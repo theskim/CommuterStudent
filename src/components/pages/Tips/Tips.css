@@ -1,5 +1,8 @@
 .tips {
     padding-left: min(10vw, 5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tips__content {
@@ -7,4 +10,6 @@
     border-radius: 1.5rem;
     overflow: hidden;
     width: 100%;
+    max-width: 50rem;
+
 }
