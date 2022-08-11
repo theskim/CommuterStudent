@@ -8,8 +8,6 @@ const AboutUs = () => {
     return (
       <div className="custom-background">
         <div className="about-us">
-
-
           <div className="section-title">
             <h2>About Us</h2>
           </div>

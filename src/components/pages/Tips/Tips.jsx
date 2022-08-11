@@ -1,7 +1,6 @@
 import './Tips.css';
 import Dropdown from '../../Dropdown/Dropdown';
 
-
 const tips = {
     "Go train tips": [
         "If you use GO train to commute, don’t forget to set a default trip.",
@@ -17,21 +16,18 @@ const tips = {
 const keys = Object.keys(tips);
 
 const Tips = () => {
-    return (
-      <div className="custom-background">
-        <div className="tips">
-
-          <h1>Commuter Tips</h1>
-		  <div className="tips__content">
-			{keys.map((key) => {
-				return <Dropdown title={key} content={tips[key]} />
-				})}
-		</div>
-
-          
-        </div>
+  return (
+    <div className="custom-background">
+      <div className="tips">
+        <h1>Commuter Tips</h1>
+        <div className="tips__content">
+          {keys.map((key) => {
+            return <Dropdown title={key} content={tips[key]} />
+          })}
+        </div>     
       </div>
-    );
-  }
+    </div>
+  );
+}
   
 export default Tips;
