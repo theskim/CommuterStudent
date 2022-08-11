@@ -3,7 +3,6 @@ import { Caret } from '../../assets';
 import { useState } from 'react';
 
 const Dropdown = (props) => {
-
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleDrop = () => {
