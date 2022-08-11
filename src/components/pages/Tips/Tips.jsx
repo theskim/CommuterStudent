@@ -1,5 +1,6 @@
 import './Tips.css';
 import Dropdown from '../../Dropdown/Dropdown';
+import Dropdowns from '../../Dropdown/Dropdowns';
 
 
 const tips = {
@@ -21,14 +22,13 @@ const Tips = () => {
       <div className="custom-background">
         <div className="tips">
 
-            <h1>Commuter Tips</h1>
+          <h1>Commuter Tips</h1>
 
-          <div className="tips__content">
+          <Dropdowns>
             {keys.map((key) => {
               return <Dropdown title={key} content={tips[key]} />
-              })}
-          </div>
-
+            })}
+          </Dropdowns>
           
         </div>
       </div>
