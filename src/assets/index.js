@@ -11,6 +11,7 @@ export const Aayan = require('./images/TeamImages/Aayan.png');
 export const Celin = require('./images/TeamImages/Celin.png');
 export const Mohammed = require('./images/TeamImages/Mohammed.png');
 export const Lily = require('./images/TeamImages/Lily.png');
+export const Siddhartha = require('./images/TeamImages/Siddhartha.png');
 export const Hassan = require('./images/TeamImages/Hassan.png');
 export const Leah = require('./images/TeamImages/Leah.png');
 export const Kaitlyn = require('./images/TeamImages/Kaitlyn.png');
