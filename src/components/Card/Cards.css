@@ -1,14 +1,15 @@
 .cards {
     display: grid;
     justify-items: center;
+    gap: 2rem;
     grid-template-columns: 50% 50%;
     margin-bottom: 6rem;
     font-size: 1.2rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .cards {
         grid-template-columns: 100%;
-        margin-bottom: 5rem; /* Because in mobile the individual card components themselves have margin-bottom of 1rem */
+        margin-bottom: 4rem; /* Because in mobile the individual card components themselves have margin-bottom of 1rem */
     }
 }
