@@ -1,11 +1,19 @@
 .cards {
     display: grid;
     justify-items: center;
-    gap: 2rem;
     grid-template-columns: 50% 50%;
     margin-bottom: 6rem;
     font-size: 1.2rem;
 }
+
+
+/* At 1350px, put a gap btwn the cards. The gap is not present before this because it de-centers the entire grid */
+@media only screen and (max-width: 1350px) {
+    .cards {
+        gap: 1rem;
+    }
+}
+
 
 @media only screen and (max-width: 1200px) {
     .cards {

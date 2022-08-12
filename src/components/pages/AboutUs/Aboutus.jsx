@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="custom-background">
         <div className="about-us">
           <div className="section-title">
-            <h2>About Us</h2>
+            <h1>About Us</h1>
           </div>
           <div className="about-us__header">
             <Cards>
@@ -30,7 +30,7 @@ const AboutUs = () => {
           </div>
           
           <div className="section-title">
-            <h2>Meet Our Team</h2>
+            <h1>Meet Our Team</h1>
           </div>
           <div className="about-us__team">
             <Member 

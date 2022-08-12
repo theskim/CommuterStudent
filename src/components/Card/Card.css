@@ -2,7 +2,6 @@
     background: #525d92;
     border-radius: 1rem;
     box-sizing: border-box;
-    margin: 0 1rem;
     box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
     max-width: 25rem;
     min-height: 25rem;
@@ -28,5 +27,13 @@
 .card__content {
     margin: 1rem;
     color: #d7d1c0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+        font-size: 1rem;
+        min-height: 15rem;
+    }
 }
 
