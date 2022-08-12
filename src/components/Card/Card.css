@@ -2,9 +2,8 @@
     background: #525d92;
     border-radius: 1rem;
     box-sizing: border-box;
-    margin: 0 1rem;
     box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
-    max-width: 25rem;
+    max-width: 50rem;
     min-height: 25rem;
 }
 
@@ -17,7 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .card__header__title {
@@ -27,6 +25,6 @@
 
 .card__content {
     margin: 1rem;
+    line-height: 3rem;
     color: #d7d1c0;
 }
-
