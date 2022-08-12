@@ -83,7 +83,6 @@
     background: #e5d196;
 }
 
-
 @keyframes slideIn {
     0% {
         left: 100vw;
@@ -92,6 +91,7 @@
         left: 30vw;
     }
 }
+
 @keyframes slideOut {
     0% {
         left: 30vw;
@@ -109,4 +109,3 @@
     animation: slideOut 0.4s ease-in-out;
     left: 100vw;
 }
-
