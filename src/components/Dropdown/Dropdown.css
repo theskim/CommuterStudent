@@ -2,9 +2,6 @@
     width: 100%;
 }
 
-
-
-
 /* Header */
 .dropdown__header {
     position: relative;
@@ -37,11 +34,10 @@
 }
 
 .dropdown__header__title h3 {
+    margin-left: 13vw;
+    margin-right: 13vw;
     color: #fcb839;
 }
-
-
-
 
 /* Content */
 .dropdown__content {
@@ -50,15 +46,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .dropdown__content ul {
     padding: 1rem 7% 1rem 10%;
     margin: 0;
 }
+
 .dropdown__content.closed-ul {
     max-height: 0;
     overflow: hidden;
     transition: max-height 2s cubic-bezier(0, 2, 1, 1);
 }
+
 .dropdown__content.open-ul {
     max-height: 80rem; /*Because css is funky I have to set a max-height greater than the list will ever get for the transition property to work*/
     margin: 0;
