@@ -2,8 +2,9 @@
     background: #525d92;
     border-radius: 1rem;
     box-sizing: border-box;
-    margin: 0 1rem;
     box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
+    max-width: 25rem;
+    min-height: 25rem;
 }
 
 .card__header {
@@ -15,7 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .card__header__title {
@@ -26,11 +26,16 @@
 .card__content {
     margin: 1rem;
     color: #d7d1c0;
+    line-height: 1.4;
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
     .card {
-        margin: 1rem 0;
+        font-size: 0.9rem;
+        min-height: 15rem;
+    }
+    .card__content {
+        line-height: 1.3;
     }
 }

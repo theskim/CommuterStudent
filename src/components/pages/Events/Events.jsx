@@ -1,19 +1,25 @@
-import EventSample from "./EventSample";
+import Dropdown from '../../Dropdown/Dropdown';
+import './Events.css';
 
 const Events = () => {
     return (
       <div className="custom-background">
         <div className="events">
           <h2>Events</h2>
-          <EventSample name="Commuter Buddy Social – Fall Edition">
-            Coming Soon!
-          </EventSample>
-          <EventSample name="Commuter Buddy Social – Winter Edition">
-            Coming Soon!
-          </EventSample>
-          <EventSample name="Commuter Exam Strategy Session">
-            Coming Soon!
-          </EventSample>
+          <div className="events__content">
+            <Dropdown 
+              title="Commuter Buddy Social – Fall Edition" 
+              content={[<>Coming Soon!</>]} 
+            />
+            <Dropdown 
+              title="Commuter Buddy Social – Winter Edition" 
+              content={[<>Coming Soon!</>]} 
+            />
+            <Dropdown 
+              title="Commuter Exam Strategy Session" 
+              content={[<>Coming Soon!</>]} 
+            />
+          </div>
         </div>
       </div>
     );

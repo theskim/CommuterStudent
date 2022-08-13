@@ -10,11 +10,11 @@
     margin: min(5vw, 2rem);
     width: min(15vw, 5rem);
     border-radius: 50%;    
-    box-shadow: 0 0 0 min(1vw, 0.3rem) #e4dc41;
+    box-shadow: 0 0 0 min(1vw, 0.3rem) #ff71ee;
     transition: all 0.7s ease-out;
 }
 
-.home img:hover{
-    box-shadow: 0 0 0 min(1vw, 0.3rem) #30d085;
+.home img:hover{    
+    box-shadow: 0 0 0 min(1vw, 0.2rem) #ff7171;
     transition: all 0.7s ease-out;
 }

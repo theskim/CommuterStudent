@@ -1,12 +1,45 @@
 .cards {
     display: grid;
+    justify-items: center;
     grid-template-columns: 50% 50%;
     margin-bottom: 6rem;
+    font-size: 1.2rem;
+    /* On 16:9, 1080p screens, the cards seem /too/ far apart. Change width of the <Cards/> element and center the grid. */
+    width: 75%;
+    margin-left: 12.5%;
 }
 
-@media only screen and (max-width: 1000px) {
+
+/* Widen the grid further when going below 1700px */
+@media only screen and (max-width: 1700px) {
+    .cards {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+}
+/* Finally, have the grid be full width when below 1575px */
+@media only screen and (max-width: 1575px) {
+    .cards {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+/* At 1350px, put a gap btwn the cards. The gap is not present before this because it de-centers the entire grid */
+@media only screen and (max-width: 1350px) {
+    .cards {
+        gap: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
     .cards {
         grid-template-columns: 100%;
-        margin-bottom: 5rem; /* Because in mobile the individual card components themselves have margin-bottom of 1rem */
+        margin-bottom: 4rem; /* Because in mobile the individual card components themselves have margin-bottom of 1rem */
+    }
+    .cards {
+        margin-left: 0; margin-right: 0;
     }
 }

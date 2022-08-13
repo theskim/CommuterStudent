@@ -2,7 +2,6 @@ import './Tips.css';
 import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
 
-
 const tips = {
     "Go train tips": [
         "If you use GO train to commute, don’t forget to set a default trip.",
