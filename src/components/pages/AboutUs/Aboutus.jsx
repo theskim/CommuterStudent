@@ -2,7 +2,7 @@ import './Aboutus.css';
 import Member from './Member';
 import Card from '../../Card/Card.jsx';
 import Cards from '../../Card/Cards.jsx';
-import { Aayan, Celin, CommuterLogo, Hassan, Kaitlyn, Karnbir, Leah, Lily, Mohammed, Sean, Siddhartha } from '../../../assets';
+import { Aayan, Baneen, Celin, Hassan, Kaitlyn, Karnbir, Leah, Lily, Mohammed, Rafiq, Sean, Siddhartha } from '../../../assets';
 
 const AboutUs = () => {
     return (
@@ -72,8 +72,9 @@ const AboutUs = () => {
               name="Baneen Kazmi" 
               discipline="CIV 2T5" 
               role="Membership Director" 
-              image={CommuterLogo}
-              funfact={<> </>}
+              image={Baneen}
+              funfact={<>I love chandeliers!! and I’ll MAKE you love them too</>}
+              instagram="https://www.instagram.com/cinnabaneen/"
             />
             <Member 
               name="Mohammed Qureshi" 
@@ -87,8 +88,10 @@ const AboutUs = () => {
               name="Rafiq Omair" 
               discipline="Mech 2T5" 
               role="Skule Relations Director" 
-              image={CommuterLogo}
-              funfact={<> </>}
+              image={Rafiq}
+              funfact={<>I have been brought on as a guest speaker on multiple football & basketball radio shows. </>}
+              linkedin="https://www.linkedin.com/in/rafiqomair"
+              instagram="https://www.instagram.com/rafiqomair/"
             />
             <Member 
               name="Lily Kim" 
