@@ -4,6 +4,12 @@
     justify-content: center;
 }
 
+
+
+.about-us__header {
+    margin-left: min(6vw, 2rem); margin-right: min(6vw, 2rem);
+}
+
 .about-us__team {
     text-align: center;
 }
@@ -17,7 +23,6 @@
     justify-content: center;
     vertical-align: top;
     margin: min(6vw, 3rem);
-    margin-bottom: 7rem;
 }
 
 .member-box .member-pic {
@@ -58,8 +63,5 @@
     }
     .about-us__team {
         margin-left: 7vw; margin-right: 7vw;
-    }
-    .about-us__header {
-        margin-left: min(6vw, 2rem); margin-right: min(6vw, 2rem);
     }
 }

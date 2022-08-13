@@ -3,7 +3,7 @@
     border-radius: 1rem;
     box-sizing: border-box;
     box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
-    max-width: 50rem;
+    max-width: 25rem;
     min-height: 25rem;
 }
 
@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .card__header__title {

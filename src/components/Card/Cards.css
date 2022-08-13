@@ -2,9 +2,8 @@
     display: grid;
     justify-items: center;
     grid-template-columns: 50% 50%;
-    margin-top: 3rem; margin-bottom: 9rem;
+    margin-bottom: 6rem;
     font-size: 1.2rem;
-    margin-left: 5rem; margin-right: 5rem;
 }
 
 
@@ -20,8 +19,5 @@
     .cards {
         grid-template-columns: 100%;
         margin-bottom: 4rem; /* Because in mobile the individual card components themselves have margin-bottom of 1rem */
-    }
-    .cards {
-        margin-left: 0; margin-right: 0;
     }
 }

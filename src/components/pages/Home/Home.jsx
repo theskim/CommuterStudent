@@ -7,6 +7,7 @@ const Home = () => {
       <div className="custom-background">
         <div className="home">
           <h1>Skule™ Commuter Student Project Directorship</h1>
+          <h2>Contact Us</h2>
           <div className="home__buttons">
             <SocialMediaButton source={DiscordLogo} link="https://discord.gg/yph2EjkbhW"/>
             <SocialMediaButton source={InstagramLogo} link="https://www.instagram.com/skule.commuters/"/>
