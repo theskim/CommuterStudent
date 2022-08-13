@@ -1,4 +1,6 @@
 .nav-links {
+    box-sizing: border-box;
+    padding: 3rem 0;
     position: absolute;
     top: 0;
     width: 70%;
@@ -6,7 +8,6 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     background: #24347b;
     box-shadow: 0 0 1rem #85888C;
@@ -15,6 +16,10 @@
 .nav-link__mobile {
     text-decoration: none;
     margin: 0;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .nav-link__mobile p {
