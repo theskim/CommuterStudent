@@ -4,7 +4,6 @@ import { SmoothScroll } from "../SmoothScroll";
 import "./MobileMenu.css";
 import "../Navbar.css"; // Because there is no need to duplicate css for nav-link elements
 
-
 const MobileMenu = () => {
 
     // const hamburger = useRef(null);
@@ -38,7 +37,5 @@ const MobileMenu = () => {
     )
 
 }
-
-
 
 export default MobileMenu;
