@@ -16,7 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .card__header__title {
@@ -40,4 +39,3 @@
         line-height: 1.3;
     }
 }
-

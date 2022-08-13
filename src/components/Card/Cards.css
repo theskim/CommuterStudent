@@ -39,4 +39,7 @@
         grid-template-columns: 100%;
         margin-bottom: 4rem; /* Because in mobile the individual card components themselves have margin-bottom of 1rem */
     }
+    .cards {
+        margin-left: 0; margin-right: 0;
+    }
 }
