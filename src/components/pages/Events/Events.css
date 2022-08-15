@@ -1,6 +1,5 @@
-.events__content {
-    border: 1px solid #525d92;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    width: 100%;
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
