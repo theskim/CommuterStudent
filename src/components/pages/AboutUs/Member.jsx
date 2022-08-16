@@ -5,6 +5,7 @@ const Member = (props) => {
         <div className="member-box">
             <img className="member-pic" src={props.image} alt="Loading.."/>
             <h3>{props.name}</h3>
+            <h4>({props.pronouns})</h4>
             <h5>{props.discipline}</h5>
             <h4>{props.role}</h4>
             <p>Fun Fact: {props.funfact}</p>
