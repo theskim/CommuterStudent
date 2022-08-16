@@ -3,5 +3,9 @@
     background: linear-gradient(90deg, #ffa600c8, #0e31bcd6);
     width: 100vw;
     text-align: center;
-    color: rgb(207, 255, 248);
+    color: rgb(255, 255, 255);
+}
+
+.footer h3 {
+    font-size: min(1rem, 3vw);
 }
