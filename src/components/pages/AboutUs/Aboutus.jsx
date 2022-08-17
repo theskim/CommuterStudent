@@ -85,7 +85,6 @@ const AboutUs = () => {
               name="Mohammed Qureshi" 
               discipline="Mech 2T5" 
               role="Membership Director" 
-              role="Events and Logistics Director" 
               pronouns="He/Him"
               image={Mohammed}
               funfact={<>I got a mark of 99% in my grade 12 Calculus class</>}
