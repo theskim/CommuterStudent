@@ -15,7 +15,7 @@ const Dropdown = (props) => {
                 <span className={`dropdown__header__caret ${(isOpen ? "open" : "")}`}>
                     <img src={Caret} alt="" />
                 </span>
-                <div className="dropdown__header__title"><h3>{props.title}</h3></div>
+                <div className="dropdown__header__title"><h3><img src={props.image} height="20px" style={{marginRight:"1vw"}} alt="Loading.."/>{props.title}</h3></div>
             </div>
             <div className={`dropdown__content ${(isOpen ? "open-ul" : "closed-ul")}`}>
                 <ul>
