@@ -1,5 +1,6 @@
 export const Caret = require('./icons/caret.ico');
 export const CommuterLogo = require('./images/commuter.png');
+export const CommuterBanner = require('./images/commuterBusBanner.png')
 export const InstagramLogo = require('./images/instagram.png');
 export const DiscordLogo = require('./images/discord.png');
 export const LinkedInLogo = require('./images/linkedin.png');
