@@ -10,12 +10,10 @@
     display: grid;
     grid-template-columns: 43% 55%;
     gap: 2%;
-    /* column-gap: 3rem; */
-    /* justify-items: center; */
     align-items: center;
-    padding: 5rem;
-
+    
     box-sizing: border-box;
+    padding: 5rem;
 }
 
 
@@ -56,6 +54,26 @@
 
 @media screen and (max-width: 1550px) {
     .home-banner__content__title {
-        font-size: min(2rem, 5vw); 
+        font-size: 2rem; 
     }
 }
+
+@media screen and (max-width: 1400px) {
+    .home-banner {
+        grid-template-columns: 50% 45%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .home-banner {
+        grid-template-columns: 57% 38%
+    }
+    .home-banner__content__title {
+        font-size: 2vw;
+    }
+    .home-banner__content__icons img {
+        width: 5vw;
+    }
+}
+
+@media screen and 
