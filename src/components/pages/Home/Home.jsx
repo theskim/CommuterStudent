@@ -1,5 +1,5 @@
 import SocialMediaButton from "./SocialMediaButton";
-import { InstagramLogo, DiscordLogo, CommuterBanner } from "../../../assets";
+import { InstagramLogo, DiscordLogo, CommuterBanner, EmailLogo } from "../../../assets";
 import './Home.css';
 
 const Home = () => {
@@ -15,6 +15,7 @@ const Home = () => {
 				<div className="home-banner__content__icons">
 					<SocialMediaButton source={DiscordLogo} link="https://discord.gg/yph2EjkbhW"/>
 					<SocialMediaButton source={InstagramLogo} link="https://www.instagram.com/skule.commuters/"/>
+					<SocialMediaButton source={EmailLogo} link="mailto:webmaster@commuter.skule.ca"/>
 				</div>
 			</div>
 		</div>

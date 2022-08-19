@@ -38,8 +38,14 @@
     margin: 0 0 1rem 0
 }
 
+.home-banner__content__icons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
 .home-banner__content__icons img {
-    margin: min(5vw, 2rem);
     width: min(15vw, 5rem);
     border-radius: 50%;    
     box-shadow: 0 0 0 min(1vw, 0.3rem) #FFF7DE;
