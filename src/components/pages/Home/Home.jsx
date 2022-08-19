@@ -10,7 +10,7 @@ const Home = () => {
 			</div>
 			<div className="home-banner__content">
 				<div className="home-banner__content__title">
-					<h1>Commuter Project Directorship</h1>
+					<h1>Commuter Student Project Directorship</h1>
 				</div>
 				<div className="home-banner__content__icons">
 					<SocialMediaButton source={DiscordLogo} link="https://discord.gg/yph2EjkbhW"/>
