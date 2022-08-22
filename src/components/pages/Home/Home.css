@@ -32,16 +32,11 @@
     display: none; /* Only becomes visible in mobile layout */
 }
 
-
-
-
 .home-banner__img img{
     width: 100%;
     z-index: 1;
+    pointer-events: none;
 }
-
-
-
 
 .home-banner__content {
     display: flex;
@@ -49,8 +44,6 @@
     align-items: center;
     z-index: 3;
 }
-
-
 
 .home-banner__content__title  {
     font-size: min(3rem, 5vw);
