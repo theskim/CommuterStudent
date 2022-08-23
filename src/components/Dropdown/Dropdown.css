@@ -80,10 +80,11 @@
         font-size: 1rem;
     }
 }
+
 @media only screen and (max-width: 675px) {
     .dropdown__header__title h3 {
         font-size: 1rem;
         justify-self: end;
-        margin: 1rem 1rem 1rem 4rem;
+        margin: 1rem 1rem 1rem 1rem;
     }
 }

@@ -17,7 +17,7 @@ const Dropdown = (props) => {
                 </span>
                 <div className="dropdown__header__title">
                     <h3>
-                        { props.image === undefined ? <></> : <img src={props.image} height="20px" style={{marginRight:"1vw"}} alt="Loading.."/>}
+                        { props.image === undefined ? <></> : <img src={props.image} height="20px" style={{marginRight:"min(1.5vw, 1rem)"}} alt="Loading.."/>}
                         {props.title}
                     </h3>
                 </div>
