@@ -1,5 +1,5 @@
 import SocialMediaButton from "./SocialMediaButton";
-import { InstagramLogo, DiscordLogo, CommuterBanner, EmailLogo } from "../../../assets";
+import { InstagramLogoOrange as InstagramLogo, DiscordLogo, CommuterBanner, EmailLogo } from "../../../assets";
 import './Home.css';
 
 const Home = () => {

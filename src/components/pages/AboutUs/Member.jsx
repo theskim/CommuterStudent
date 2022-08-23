@@ -1,4 +1,4 @@
-import { LinkedInLogo, InstagramLogo, YoutubeLogo, GithubLogo } from "../../../assets";
+import { LinkedInLogo, InstagramLogoBlue as InstagramLogo, YoutubeLogo, GithubLogo } from "../../../assets";
 
 const Member = (props) => {
     return (
