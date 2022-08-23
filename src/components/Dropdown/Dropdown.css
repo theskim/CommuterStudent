@@ -87,4 +87,7 @@
         justify-self: end;
         margin: 1rem 1rem 1rem 1rem;
     }
+    .events .dropdown__header__title h3 {
+        margin: 1rem 1rem 1rem 4rem;
+    }
 }
