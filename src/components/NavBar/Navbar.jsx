@@ -9,7 +9,6 @@ const NavBar = () => {
     const [yPos, setYPos] = useState(0);
     const [displayNav, updateDisplayNav] = useState(true);
 
-    // const hamburger = useRef(null);
     const [isOpen, setIsOpen] = useState(false);
     const [firstOpen, setFirstOpen] = useState(false);
     
