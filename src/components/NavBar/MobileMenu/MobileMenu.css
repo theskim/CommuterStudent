@@ -10,16 +10,16 @@
     flex-direction: column;
     align-items: center;
     background: #24347b;
-    box-shadow: 0 0 1rem #85888C;
 }
 
 .nav-link__mobile {
     text-decoration: none;
     margin: 0;
     height: 20vh;
+    box-sizing: border-box;
+    padding-top: calc(10vh - min(6vw, 1.75rem)); /* 10vh - font-size, to center the paragraph within this div. Not using flexbox because safari giving issues. */
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .nav-link__mobile p {
