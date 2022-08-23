@@ -19,7 +19,7 @@ const Home = () => {
 				</div>
 			</div>
 			{/* This is only for the mobile layout. It turns transluscent when mobile layout kicks in. */}
-			<div className="home-banner__background"></div> 
+			<div className="home-banner__background"/> 
 		</div>
     );
   }
