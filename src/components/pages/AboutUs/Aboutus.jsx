@@ -3,6 +3,7 @@ import Member from './Member';
 import Card from '../../Card/Card.jsx';
 import Cards from '../../Card/Cards.jsx';
 import { Aayan, Baneen, Celin, Hassan, Kaitlyn, Karnbir, Leah, Lily, Mohammed, Rafiq, Sean, Siddhartha } from '../../../assets';
+import Footer from '../../Footer/Footer';
 
 const AboutUs = () => {
     return (
@@ -151,6 +152,7 @@ const AboutUs = () => {
           </div>
 
         </div>
+        <Footer/>
       </div>
     );
   }

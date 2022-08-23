@@ -31,8 +31,9 @@ code {
 .custom-background {
   padding-top: 10vw;
   background: linear-gradient(90deg, #ffa600c8, #0e31bcd6);
-  padding-bottom: 10vw;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .home, .about-us, .events, .join-us, .tips {

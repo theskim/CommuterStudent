@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, AboutUs, Events, JoinUs, Tips, NavBar, Footer } from './imports';
+import { Home, AboutUs, Events, JoinUs, Tips, NavBar } from './imports';
 
 function App() {
   return (
@@ -14,7 +14,6 @@ function App() {
         <Route path="/join-us" element={<JoinUs/>} />
         <Route path="/tips" element={<Tips/>} />
       </Routes>
-      <Footer />
     </Router>
   );
 }

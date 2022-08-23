@@ -1,6 +1,7 @@
 import './Tips.css';
 import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
+import Footer from '../../Footer/Footer';
 
 const tips = {
     "Go Train Tips": {
@@ -52,6 +53,7 @@ const Tips = () => {
           <h3 style={{textAlign: 'center'}}>Some tips are sourced from the 2T5 Frosh Handbook.</h3>
           <p style={{textAlign: 'center'}}>If you have any other suggestions, please let us know!</p>
         </div>
+        <Footer/>
       </div>
     );
   }

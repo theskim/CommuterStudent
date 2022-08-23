@@ -1,5 +1,6 @@
 import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
+import Footer from '../../Footer/Footer';
 import './Events.css';
 
 const Events = () => {
@@ -23,6 +24,7 @@ const Events = () => {
           </Dropdowns >
           
         </div>
+        <Footer/>
       </div>
     );
   }
