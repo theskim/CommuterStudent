@@ -37,8 +37,8 @@ code {
 }
 
 .home, .about-us, .events, .join-us, .tips {
-  padding-left: min(10vw, 5rem); padding-right: min(10vw, 5rem);
-  padding-top: min(10vh, 5rem); padding-bottom: min(10vh, 5rem);
+  padding: min(10vh, 5rem) min(10vw, 5rem) min(10vh, 5rem) min(10vw, 5rem);
+  margin-bottom: 5vh;
   background-color: #fff7de;
   display: grid;
   margin-left: 10vw; margin-right: 10vw;
