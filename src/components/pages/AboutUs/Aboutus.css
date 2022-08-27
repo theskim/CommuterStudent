@@ -9,8 +9,12 @@
     text-align: center;
 }
 
-.about-us__header h2 {
-    text-align: center;
+.about-us__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
 }
 
 .member-box {   
@@ -59,8 +63,5 @@
     }
     .about-us__team {
         margin-left: 7vw; margin-right: 7vw;
-    }
-    .about-us__header {
-        margin-left: min(6vw, 2rem); margin-right: min(6vw, 2rem);
     }
 }
