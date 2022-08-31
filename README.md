@@ -1,8 +1,15 @@
-## Commuter Students Website 2022-23
+# Commuter Students Website 2022-23
+The official website for **University of Toronto Engineering Society - Commuter Student Directorship.**<br/>
+Created by Ayaan Pathan [@N00dleMaster](https://github.com/N00dleMaster) and Sean Kim [@skim1601](https://github.com/skim1601)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Link: 
+https://skim1601.com
 
-## Available Scripts
+## Technologies
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+
+## React Scripts
 
 In the project directory, you can run:
 
