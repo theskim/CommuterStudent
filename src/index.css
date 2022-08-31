@@ -43,6 +43,8 @@ code {
   display: grid;
   margin-left: 10vw; margin-right: 10vw;
   border-radius: 3vw;
+  display: flex;
+  flex-direction: column;
   box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
 }
 

@@ -1,10 +1,14 @@
 import SocialMediaButton from "./SocialMediaButton";
 import { InstagramLogoOrange as InstagramLogo, DiscordLogo, CommuterBanner, EmailLogo } from "../../../assets";
+import { setSideBar } from "../../..";
+import { useDispatch } from 'react-redux';
 import './Home.css';
 
 const Home = () => {
+	const dispatch = useDispatch();
+
     return (
-		<div className="home-banner">
+		<div className="home-banner" onClick={() => dispatch(setSideBar(false))}>
 			<div className="home-banner__img">
 				<img src={CommuterBanner} alt="" />
 			</div>

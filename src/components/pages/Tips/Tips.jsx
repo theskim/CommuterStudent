@@ -2,6 +2,7 @@ import './Tips.css';
 import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
 import Footer from '../../Footer/Footer';
+import Background from '../../Background/Background';
 
 const tips = {
     "Go Train Tips": {
@@ -39,7 +40,7 @@ const keys = Object.keys(tips);
 
 const Tips = () => {
     return (
-      <div className="custom-background">
+      <Background>
         <div className="tips">
 
           <h1>Commuter Tips</h1>
@@ -54,7 +55,7 @@ const Tips = () => {
           <p style={{textAlign: 'center'}}>If you have any other suggestions, please let us know!</p>
         </div>
         <Footer/>
-      </div>
+      </Background>
     );
   }
   
