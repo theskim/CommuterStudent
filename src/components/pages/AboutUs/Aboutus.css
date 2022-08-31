@@ -49,7 +49,7 @@
 }
 
 .social-media-logo {
-    transition: all 0.7s ease-out;
+    transition: all 0.2s ease-out;
     height: 3rem;
     margin: min(2vw, 0.5rem);
     border-radius: 50%;    
@@ -57,7 +57,9 @@
 }
 
 .social-media-logo:hover {
-    box-shadow: 0 0 0 min(1vw, 0.2rem) #ff7171;
+    transition: all 0.2s ease-out;
+    box-shadow: 0 0 0 min(1vw, 0.2rem) #ff7171;    
+    transform: scale(1.15);
 }
 
 /* Larger Monitor Enviornment */

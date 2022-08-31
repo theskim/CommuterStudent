@@ -63,7 +63,10 @@
     justify-content: space-around;
 }
 
-
+.home-banner__content__icons a img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
 
 .home-banner__content__icons img {
     width: min(15vw, 5rem);
