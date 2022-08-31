@@ -1,11 +1,12 @@
 import Dropdown from '../../Dropdown/Dropdown';
 import Dropdowns from '../../Dropdown/Dropdowns';
+import Background from '../../Background/Background';
 import Footer from '../../Footer/Footer';
 import './Events.css';
 
 const Events = () => {
     return (
-      <div className="custom-background">
+      <Background>
         <div className="events">
           <h1>Events</h1>
           <Dropdowns>
@@ -22,7 +23,7 @@ const Events = () => {
                   If you have any questions, feel free to reach out to the exec team.
                   Feel free to share this with all your friends, its open to ALL UofT students!!
                   &nbsp;
-                  <a href="https://forms.gle/4bKZZTJg1Xfpv2Tq6">Link</a>
+                  Here is a link to <a href="https://forms.gle/4bKZZTJg1Xfpv2Tq6" style={{color: "blue"}}>Apply</a>
                 </>
               ]} 
               />
@@ -38,11 +39,11 @@ const Events = () => {
               title="Commuter Exam Strategy Session" 
               content={[<>Coming Soon!</>]} 
               />
-          </Dropdowns >
+          </Dropdowns>
           
         </div>
         <Footer/>
-      </div>
+      </Background>
     );
   }
   

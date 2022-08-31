@@ -1,5 +1,6 @@
 import './Aboutus.css';
 import Member from './Member';
+import Background from '../../Background/Background';
 import Card from '../../Card/Card.jsx';
 import Cards from '../../Card/Cards.jsx';
 import { Aayan, Baneen, Celin, Hassan, Kaitlyn, Karnbir, Leah, Lily, Mohammed, Rafiq, Sean, Siddhartha } from '../../../assets';
@@ -7,7 +8,7 @@ import Footer from '../../Footer/Footer';
 
 const AboutUs = () => {
     return (
-      <div className="custom-background">
+      <Background>
 
         <div className="about-us">
 
@@ -158,7 +159,7 @@ const AboutUs = () => {
 
         </div>
         <Footer/>
-      </div>
+      </Background>
     );
   }
   
