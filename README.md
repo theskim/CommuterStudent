@@ -3,7 +3,7 @@ The official website for **University of Toronto Engineering Society - Commuter 
 Created by Ayaan Pathan [@N00dleMaster](https://github.com/N00dleMaster) and Sean Kim [@skim1601](https://github.com/skim1601)
 
 ## Link: 
-https://skim1601.com
+https://commuter.skule.ca/
 
 ## Technologies
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
