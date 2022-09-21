@@ -2,5 +2,24 @@
   width: 100%;
   height: 100%;
   border: none;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
+  display: flex;
+  justify-content: center;
 }
+
+.formContainer {
+  width: 50%;
+}
+
+
+@media screen and (max-width: 1500px) {
+  .formContainer {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .formContainer {
+    width: 100%;
+  }
+}
+
