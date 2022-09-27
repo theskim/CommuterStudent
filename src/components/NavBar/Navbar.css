@@ -49,6 +49,7 @@
 .nav-link:hover p {
     color: #7989d2;
     transition: 0.2s;
+    font-size: min(6.5vw, 2.1rem);
 }
 
 /* TABLET MODE IN LANDSCAPE */

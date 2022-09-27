@@ -6,5 +6,6 @@
 }
 
 .footer h3 {
+    margin: 5vh 0;
     font-size: min(1rem, 3vw);
 }

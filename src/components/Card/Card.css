@@ -4,7 +4,12 @@
     box-sizing: border-box;
     box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.3);
     max-width: 25rem;
-    min-height: 25rem;
+    min-height: 25rem;    
+    transition: 0.1s ease-in;
+}
+
+.card:hover {
+    transform: scale(1.03);
 }
 
 .card__header {

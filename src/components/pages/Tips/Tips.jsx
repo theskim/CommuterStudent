@@ -43,7 +43,7 @@ const Tips = () => {
       <Background>
         <div className="tips">
 
-          <h1>Commuter Tips</h1>
+          <h1>Commuter Tips</h1><br/>
 
           <Dropdowns>
             {keys.map((key) => {
@@ -51,8 +51,10 @@ const Tips = () => {
             })}
           </Dropdowns>
           <br/>
-          <h3 style={{textAlign: 'center'}}>Some tips are sourced from the 2T5 Frosh Handbook.</h3>
-          <p style={{textAlign: 'center'}}>If you have any other suggestions, please let us know!</p>
+          <h3 style={{textAlign: 'center', margin: '10vh 0'}}>
+            Some tips are sourced from the 2T5 Frosh Handbook. <br/> 
+            If you have any other suggestions, please let us know!
+          </h3>
         </div>
         <Footer/>
       </Background>
