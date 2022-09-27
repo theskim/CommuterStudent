@@ -32,10 +32,18 @@
     display: none; /* Only becomes visible in mobile layout */
 }
 
-.home-banner__img img{
+.home-banner__img img {
     width: 100%;
     z-index: 1;
     pointer-events: none;
+}
+
+.home-banner__img {
+    transition: 0.1s ease-in;
+}
+
+.home-banner__img:hover {
+    transform: scale(1.1);
 }
 
 .home-banner__content {
