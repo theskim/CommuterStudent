@@ -60,7 +60,7 @@ const clubInfo = {
       "Meeting Frequency: 1-2 times every 2 weeks.",
       "Meeting Length: 1 hour",
       "Meeting Methods: Hybrid",
-      "Time commitment: 2 hours a week, maximum"
+      "Time commitment: 2 hours a week, maximum."
     ]
   },
   "Robotics for Space Exploration": {
@@ -84,7 +84,7 @@ const clubInfo = {
       "Meeting Frequency: Once a week for general members, twice a week for exec members.",
       "Meeting Length: 1 hour.",
       "Meeting Methods: Our fall and winter semesters will be in person because club members are provided with hands-on mechatronics build sessions. if a club member has a special exception that prevents them from joining the fall/winter meetings in person, we will implement a hybrid meeting format.",
-      "Time commitment: 2-3h for general members (1h meetings, 1-2h research). 3-4h for exec members (2h meetings, 1-2h research)",
+      "Time commitment: 2-3h for general members (1h meetings, 1-2h research). 3-4h for exec members (2h meetings, 1-2h research).",
     ]
   },
   "Skule™ Choir": {
