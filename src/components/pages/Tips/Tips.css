@@ -4,3 +4,25 @@
     flex-direction: column;
     align-items: center;
 }
+
+.tips h1 {
+    margin: 1rem 0 0.5rem 0
+}
+
+.tips h2 {
+    margin: 0.5rem 0;
+}
+
+.tips p {
+    margin: 0.5rem 0;
+    text-align: center;  
+    width: 100%;
+    /* to match the width of the dropdowns: */
+    max-width: 50rem; 
+}
+
+hr {
+    width: 100%;
+    max-width: 50rem;
+    margin: 1rem 0;
+}

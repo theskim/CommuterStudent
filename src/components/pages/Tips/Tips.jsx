@@ -36,7 +36,71 @@ const tips = {
     },
 }
 
+
+
+const clubInfo = {
+  "University of Toronto Aerospace Team": {
+    "tips": [
+      "Meeting Frequency: Variable; Around 2-3 times a week on average.",
+      "Meeting Length: 3 hours",
+      "Meeting Methods: Hybrid",
+      "Time commitment: Around 5 hours per week."
+    ]
+  },
+  "University of Toronto Concrete Canoe Team": {
+    "tips": [
+      "Meeting Frequency: Weekly for subteams and monthly for the whole team.",
+      "Meeting Length: 30 minutes to 1 hour.",
+      "Meeting Methods: Hybrid",
+      "Time commitment: 1-2 hours per week."
+    ]
+  },
+  "Skule Archives": {
+    "tips": [
+      "Meeting Frequency: 1-2 times every 2 weeks.",
+      "Meeting Length: 1 hour",
+      "Meeting Methods: Hybrid",
+      "Time commitment: 2 hours a week, maximum."
+    ]
+  },
+  "Robotics for Space Exploration": {
+    "tips": [
+      "Meeting Frequency: (1-2)/week, a 4hr session on saturday and shorter meetings mid-week as needed.",
+      "Meeting Length: 4 hours",
+      "Meeting Methods: Some subteams can be hybrid, some must be in person in Myhal.",
+      "Time commitment: 6 hours a week."
+    ]
+  },
+  "Canadian Association of Food Engineers": {
+    "tips": [
+      "Meeting Frequency: Biweekly",
+      "Meeting Length: 1 hour",
+      "Meeting Methods: Online",
+      "Time commitment: 3 hours"
+    ]
+  },
+  "Spark Design Club": {
+    "tips": [
+      "Meeting Frequency: Once a week for general members, twice a week for exec members.",
+      "Meeting Length: 1 hour.",
+      "Meeting Methods: Our fall and winter semesters will be in person because club members are provided with hands-on mechatronics build sessions. if a club member has a special exception that prevents them from joining the fall/winter meetings in person, we will implement a hybrid meeting format.",
+      "Time commitment: 2-3h for general members (1h meetings, 1-2h research). 3-4h for exec members (2h meetings, 1-2h research).",
+    ]
+  },
+  "Skule™ Choir": {
+    "tips": [
+      "Meeting Frequency: Once a week",
+      "Meeting Length: 2 hours",
+      "Meeting Methods: Hybrid",
+      "Time commitment: 2 hours a week."
+    ]
+  },
+}
+
+
+
 const keys = Object.keys(tips);
+const clubKeys = Object.keys(clubInfo);
 
 const Tips = () => {
     return (
@@ -50,11 +114,23 @@ const Tips = () => {
               return <Dropdown title={key} content={tips[key].tips} image={tips[key].image}/>
             })}
           </Dropdowns>
-          <br/>
-          <h3 style={{textAlign: 'center', margin: '10vh 0'}}>
+          <h3 style={{textAlign: 'center'}}>
             Some tips are sourced from the 2T5 Frosh Handbook. <br/> 
             If you have any other suggestions, please let us know!
           </h3>
+
+
+          {/* this next bit is commuter info */}
+          <hr/>
+          <h1>Commuter Info: Joining a club!</h1>
+          <h2>What's it like to join a club?</h2>
+          <p>We've gathered information from various clubs, so you can get a sense of what it's like to be part of a club whilst having to commmute.</p>
+          <Dropdowns>
+            {clubKeys.map((club) => {
+              return <Dropdown title={club} content={clubInfo[club].tips}/>
+            })}
+          </Dropdowns>
+
         </div>
         <Footer/>
       </Background>
