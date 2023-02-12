@@ -114,7 +114,7 @@ const Tips = () => {
               return <Dropdown title={key} content={tips[key].tips} image={tips[key].image}/>
             })}
           </Dropdowns>
-          <h3 style={{textAlign: 'center', margin: '10vh 0'}}>
+          <h3 style={{textAlign: 'center'}}>
             Some tips are sourced from the 2T5 Frosh Handbook. <br/> 
             If you have any other suggestions, please let us know!
           </h3>
